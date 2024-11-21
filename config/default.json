@@ -1,0 +1,34 @@
+{
+    "port" : "3100",
+    "mongodbUrl" : "mongodb+srv://EfrenHR:Efren10@cluster0.5ase3.mongodb.net/SOA?retryWrites=true&w=majority&appName=Cluster0", 
+    "adminSecretToken": "admin@123",
+    "justSecret":"secretTest@123456",
+    "loginLink": "http://localhost:3000/auth",
+    "appPrefix": "/api/v1",
+    "fileStoragePath": "../uploads/",
+    "emailService": {
+        "testDomain" : "sandbox737df8377dd44d7ab5d4ad340942e8c9.mailgun.org",
+        "privateApiKey": "7dc799c468eff5d64be295fd48fe1090",
+        "publicApiKey": "pubkey-587757248bccabd47c5c535b91c76227",
+        "emailTemplates": {
+            "forgotPassword":"forgot-password-template",
+            "verifyEmail": "verify-email-template",
+            "orderSuccess":"order-success"
+        }   
+    },
+    "cloudinary": {
+        "cloud_name": "dlkodlfio",
+        "api_key": "932233998412978",
+        "api_secret": "-rd_DZFslj8sMJSk00303SZtviM",
+        "folderPath":"compra-facil/products",
+        "publicId_prefix":"comprafacil_prods_",
+        "bigSize": "400x400"
+    },
+    "stripe": {
+        "publishable_key":"pk_test_51QEDCFDNDH0JWWquI5oSKYoY8KAojlylEKq0MjOO4J8KHa7f3h2fK4iV8ZFg2fS1OG2ZGMCMbQSMECMXb9Ofc1SI00EEiVtHKk",
+        "secretKey": "sk_test_51QEDCFDNDH0JWWquGNKlQRxyo5zJRjyM4mHyYeImuUqqwGWXiSyWTmoCdXBtg2vrwurT4Js2Jf2F3N43jajBKhm700X61NrcrP",
+        "succesUrl": "http://localhost:3000/order-succes",
+        "cancelUrl": "http://localhost:3000/order-cancel",
+        "webhook_secret":"whsec_RL5w3asPqWN7CaaGtHPMUa3oiOccAZ5g"
+    }
+}
