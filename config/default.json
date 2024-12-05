@@ -1,15 +1,15 @@
 {
     "port" : "3100",
-    "mongodbUrl" : "mongodb+srv://EfrenHR:Efren10@cluster0.5ase3.mongodb.net/SOA?retryWrites=true&w=majority&appName=Cluster0", 
+    "mongodbUrl" : "mongodb+srv://rey:root@cluster0.wujxorw.mongodb.net/SOA?retryWrites=true&w=majority&appName=Cluster0", 
     "adminSecretToken": "admin@123",
     "justSecret":"secretTest@123456",
     "loginLink": "http://localhost:3000/auth",
     "appPrefix": "/api/v1",
     "fileStoragePath": "../uploads/",
     "emailService": {
-        "testDomain" : "sandbox737df8377dd44d7ab5d4ad340942e8c9.mailgun.org",
-        "privateApiKey": "7dc799c468eff5d64be295fd48fe1090",
-        "publicApiKey": "pubkey-587757248bccabd47c5c535b91c76227",
+        "testDomain" : "sandboxe863e2c9e10a4c528d967787249eee85.mailgun.org",
+        "privateApiKey": "7a9bed13e91f600c411d50968d729d6f-784975b6-27ab3ec9",
+        "publicApiKey": "pubkey-4412b8d4d9447b1cb43cb7310b755144",
         "emailTemplates": {
             "forgotPassword":"forgot-password-template",
             "verifyEmail": "verify-email-template",
@@ -17,18 +17,18 @@
         }   
     },
     "cloudinary": {
-        "cloud_name": "dlkodlfio",
-        "api_key": "932233998412978",
-        "api_secret": "-rd_DZFslj8sMJSk00303SZtviM",
-        "folderPath":"compra-facil/products",
-        "publicId_prefix":"comprafacil_prods_",
+        "cloud_name": "da2askgn0",
+        "api_key": "386471599257233",
+        "api_secret": "ondhtjQiBMint061uS9lUveavb4",
+        "folderPath":"perseo/products",
+        "publicId_prefix":"perseo_prods_",
         "bigSize": "400x400"
     },
     "stripe": {
-        "publishable_key":"pk_test_51QEDCFDNDH0JWWquI5oSKYoY8KAojlylEKq0MjOO4J8KHa7f3h2fK4iV8ZFg2fS1OG2ZGMCMbQSMECMXb9Ofc1SI00EEiVtHKk",
-        "secretKey": "sk_test_51QEDCFDNDH0JWWquGNKlQRxyo5zJRjyM4mHyYeImuUqqwGWXiSyWTmoCdXBtg2vrwurT4Js2Jf2F3N43jajBKhm700X61NrcrP",
+        "publishable_key":"pk_test_51QDGVh2Lo9tWLMwnn9AOunWAkRTxRGTCQ7vwgw7x1FcY4W6pkJxKrbUX9tchAnccplQKvJ2HCR9MGe1pRFf7OYP900M8sikWkU",
+        "secretKey": "sk_test_51QDGVh2Lo9tWLMwnCoVtb1Jq2Breq3uf9s80ce978V5ccmeduLlNn4FNmiW1yRenTiw6afN6PsxJJ9b7HNUtYCBD00yXp5B6Q1",
         "succesUrl": "http://localhost:3000/order-succes",
         "cancelUrl": "http://localhost:3000/order-cancel",
-        "webhook_secret":"whsec_RL5w3asPqWN7CaaGtHPMUa3oiOccAZ5g"
+        "webhook_secret":"whsec_wXEcHLsSTQAI2I2E3SPDF5P7GTeH7PU2"
     }
 }
